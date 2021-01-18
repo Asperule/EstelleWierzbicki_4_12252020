@@ -316,10 +316,16 @@ a:hover {
 }
 
 .navbar .nav {
-    padding-top: 2px;
     margin-right: -16px;
     float: right;
     z-index: 1;
+    font-size:15px;
+    text-transform:uppercase;
+    padding:15px;
+}
+.navbar .nav:hover{
+    font-weight: bold;
+    border-bottom: solid 1px #F3976C;
 }
 
 .nav > li {
@@ -640,7 +646,7 @@ a[data-lightbox]:hover img {
 }
 
 h1,
-h2,
+h2
 h3,
 h4,
 h5,
@@ -680,7 +686,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 18px;
 }
 
 .tight-width-whitespace {
@@ -701,13 +707,7 @@ p {
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
-    width: 60%;
-    display: block;
-    margin-left:auto;
-    margin-right:auto;
-    text-align: center;
 }
-
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
@@ -801,6 +801,8 @@ h4 {
 .ltc-white {
     color: #FFFFFF!important;
     font-size: 30px;
+    display:inline-block;
+    margin-top:30px;
 }
 
 .ltc-white:hover {
@@ -1043,26 +1045,41 @@ h4 {
         height: 320px;
     }
 }
+.citation1{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
 .citation1__txt {
     font-size:20px;
     font-style: italic;
+        
 }
 .italic{
     font-size:15px;
     font-style: none;
 }
+.text-size1{
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+}
 .text-size1 p{
-    font-size:20px;
+    font-size:22px;
+}
+.text-shadow{
+    text-shadow: 0px 0px 10px black;
 }
 #form_1{
+    height:550px;
     margin-bottom:50px;
-    border:blue 2px solid;
-    max-width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .form-group{
     height:50px;
     width: 80%;
-    border:green 2px solid;
     margin-bottom:20px;
     margin-right:auto;
     margin-left:auto;
@@ -1070,21 +1087,31 @@ h4 {
 label, textarea{
     height:30px;
     width:100%;
-    border:pink 2px solid;
-    
 }
 label{
     font-size:15px;
     font-weight: bold;
-    width:100%;
     line-height: 200%;
 }
 .block-contact p{
-    border:red 2px solid;
     font-size: 15px;
     text-align:center;
-    font-weight:bold;
     line-height: 200%;
+}
+.bold{
+    font-weight: bold;
+}
+.btn-size{
+    width:30%;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:80px;
+}
+#bloc-5-cta h2{
+    color:white!important
+}
+.bloc-lg2 {
+    padding: 50px;
 }
 
 @media (max-width: 400px) {
